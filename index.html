@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Allison</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body class="min-h-screen">
+
+  <div class="container mx-auto px-4 py-8">
+    <!-- Encabezado -->
+    <header class="flex flex-col items-center justify-center text-center mb-12">
+      <div class="relative mb-6">
+        <img src="img/mifoto.webp" alt="Foto de Allison" class="profile-pic rounded-full object-cover">
+      </div>
+      <h1 class="text-4xl font-bold text-gray-800 mb-2">Allison Adriana Tapia Mena</h1>
+      <h2 class="text-2xl text-gray-600 mb-8">Estudiante de Ing. en Sistemas Computacionales</h2>
+      <div class="w-full max-w-3xl">
+        <h3 class="text-3xl font-semibold text-gray-800 mb-6 px-4 py-3 rounded-lg bg-white bg-opacity-70 shadow-md">
+          ¡Bienveni@s! Este es mi proyecto final para mi clase de diseño web
+        </h3>
+      </div>
+    </header>
+
+    <!-- SOBRE MÍ -->
+    <section class="section rounded-xl shadow-lg p-8 mb-12 relative overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center opacity-20 -z-10" style="background-image: url('img/sobremifondo.webp');"></div>
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Sobre mí</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white bg-opacity-70 p-6 rounded-lg shadow-md">
+          <p class="text-gray-700 mb-4">
+            Actualmente me encuentro cursando la carrera de ingeniería en sistemas y una licenciatura en diseño gráfico.
+          </p>
+        </div>
+        <div class="bg-white bg-opacity-70 p-6 rounded-lg shadow-md">
+          <p class="text-gray-700">
+            Mis intereses incluyen los videojuegos, las plantas, Star Wars y el horror.
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="https://www.linkedin.com/in/allison-adriana-tapia-mena-3482a3368" target="_blank" class="linkedin-btn text-white font-semibold py-3 px-6 rounded-full inline-flex items-center bg-blue-600 hover:bg-blue-700 transition">
+          <i class="fab fa-linkedin-in mr-2 text-xl"></i> Revisa mi perfil en Linkedin
+        </a>
+      </div>
+    </section>
+
+    <!-- SOBRE EL PROYECTO -->
+    <section class="section rounded-xl shadow-lg p-8 mb-12 relative overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center opacity-20 -z-10" style="background-image: url('img/sobreproyectofondo.webp');"></div>
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Sobre este proyecto</h2>
+      <div class="bg-white bg-opacity-70 p-6 rounded-lg shadow-md">
+        <p class="text-gray-700 mb-4">
+          Este proyecto fue desarrollado durante el curso DW0619 - Diseño Web, aplicando todas las habilidades vistas en clase. A continuación, detallo las principales actividades realizadas:
+        </p>
+        <p class="text-gray-700 mb-4">
+          Comencé construyendo la estructura base de mi sitio web personal: un portafolio académico. Inicialmente implementé una página estática con Flask, organizando las carpetas de templates, static, y archivos HTML como index.html, acerca.html y portafolio.html. En esta estructura incorporé secciones navegables con rutas dinámicas y contenidos personalizados.
+        </p>
+        <p class="text-gray-700 mb-4">
+          Una de las primeras actividades fue crear una página de inicio con una interfaz amigable. Para ello utilicé CSS personalizado, aplicando colores, tipografías agradables y diseño responsivo. Posteriormente, integré una imagen de fondo en el encabezado (cielobackground.webp) y una foto de perfil redonda (mifoto.webp) junto a mi nombre, lo que le dio identidad visual al sitio.
+        </p>
+        <p class="text-gray-700 mb-4">
+          En la sección "Sobre mí", agregué un enlace profesional a mi perfil de LinkedIn, el cual está centrado visualmente con un botón estilizado y funcional. Esta vista replica el diseño institucional de la página de inicio, manteniendo una coherencia estética.
+        </p>
+        <p class="text-gray-700 mb-4">
+          Luego integré una sección de "Sobre el proyecto", donde documenté el desarrollo de todas las actividades del curso. En ella destaqué el uso de JavaScript para interacciones sencillas, como mostrar mensajes mediante funciones personalizadas. También incluí una descripción detallada de prácticas importantes como:
+        </p>
+        <p class="text-gray-700 mb-4">
+          El uso de Nmap para escanear puertos en el servidor local y detectar servicios abiertos. La práctica con Wireshark para capturar paquetes de red y observar diferencias entre los protocolos HTTP y HTTPS. Todo esto lo desarrollé en un entorno local usando Flask y Visual Studio Code en Ubuntu. Cada vista fue estilizada cuidadosamente con CSS para garantizar una experiencia visual limpia, organizada y profesional.
+        </p>
+        <p class="text-gray-700">
+          Finalmente, este portafolio fue diseñado no solo como una práctica académica, sino como una base sólida para seguir aprendiendo y publicarlo en el futuro mediante GitHub Pages, como una versión estática que no requiere servidor backend.
+        </p>
+      </div>
+    </section>
+
+    <!-- OTROS PROYECTOS -->
+    <section class="section rounded-xl shadow-lg p-8 relative overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center opacity-20 -z-10" style="background-image: url('img/otrosproyectosfondo.webp');"></div>
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Otros de mis proyectos</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Proyecto 1 -->
+        <div class="project-card bg-white bg-opacity-70 p-6 rounded-lg shadow-md hover:shadow-lg cursor-pointer">
+          <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Memorama</h3>
+          <p class="text-gray-600 text-center">Juego de memorama con fotos de perritos</p>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="project-card bg-white bg-opacity-70 p-6 rounded-lg shadow-md hover:shadow-lg cursor-pointer">
+          <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Gato</h3>
+          <p class="text-gray-600 text-center">Juego clásico del gato con dos posibles ganadores y empate</p>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="project-card bg-white bg-opacity-70 p-6 rounded-lg shadow-md hover:shadow-lg cursor-pointer">
+          <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Simulador POS</h3>
+          <p class="text-gray-600 text-center">Simulador de un punto de venta para empresas y restaurantes</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-center text-gray-600 py-6">
+      <p>© 2025 Allison Adriana Tapia Mena. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- Script personalizado -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
